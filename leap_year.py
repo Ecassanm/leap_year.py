@@ -16,4 +16,4 @@ else:
 		days = 29
 	else: 
 		days = 28
-print("In the year %4d, there are %2d days in February." % (year, days)
+print("In the year %4d, there are %2d days in February." % (year, days))
