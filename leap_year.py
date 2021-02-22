@@ -10,11 +10,13 @@ if (year % 100) > 0:
 	if (year % 400) == 0:
 		days = 29
 		print("In the year, ", year, " there are " , days, " days in February.")
-	else: days = 28
+	else: 
+		days = 28
 		print("In the year, ", year, " there are " , days, " days in February.")
 else:
 	if (year % 4) > 0:
 		days = 29
 		print("In the year, ", year, " there are " , days, " days in February.")
-	else: days = 28
+	else: 
+		days = 28
 		print("In the year, ", year, " there are " , days, " days in February.")
