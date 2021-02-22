@@ -1,3 +1,10 @@
+################################################################################
+# Author: Emily Cassanmagnago 
+# Date: 02/21/2021
+# This program calculates roulette colors
+# based on pocket number
+################################################################################
+
 year = input("Please input a year: ")
 if (year % 100) > 0:
 	if (year % 400) == 0:
